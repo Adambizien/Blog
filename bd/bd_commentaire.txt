@@ -1,0 +1,15 @@
+create table commentaire(
+  
+id int(255) NOT NULL AUTO_INCREMENT,
+
+id_ar int(255) NOT NULL,     
+text text NOT NULL,
+  
+date varchar(20) NOT NULL,
+ 
+name varchar(50) NOT NULL,
+   
+PRIMARY KEY (id)
+) 
+ENGINE=InnoDB DEFAULT 
+CHARSET=utf8;

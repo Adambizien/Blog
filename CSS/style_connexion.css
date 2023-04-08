@@ -1,0 +1,60 @@
+div.fondfloue{/* flouter le fond*/
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-backdrop-filter: blur(2px); 
+    backdrop-filter: blur(2px);
+}
+body.fond{/*image de fond*/
+    background-image: url('../images/1.jpg');
+}
+h1{/*Titre-blog*/
+    text-align:center;
+    color:rgb(191, 11, 67 );
+    font-family:fantasy;
+    font-size:300%;
+}
+pre{/*style des liens vers les autres page*/
+    background-color:rgb(0,0,0,0.35);
+    font-size:125%;
+    text-align:center;
+    font-family:Arial;
+}
+a{/*couleur des liens */
+    color:rgb(19, 85, 170 ); 
+}
+a.color{/*couleur des liens dans l'interface*/
+    color:rgb(254, 254, 254 );
+}
+div.interface{/*style de l'interface*/
+    background-color: rgb(19, 85, 170,0.50);
+    border-width:2px;
+    border-style:ridge;
+    border-color:rgb(19, 85, 170);
+    border-radius:30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height:190px;
+    width: 25%;
+}
+button{/*style du bouton*/
+    background-color : rgb(255,255,255,0.35);
+    border-style:solid;
+    border-color:rgb(19, 85, 170);
+    border-radius:30px;
+}
+div.er{/*style des erreurs*/
+    background-color : rgb(251, 0, 0 ,0.70);
+    border-width:2px;
+    border-style:ridge;
+    border-radius:30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height:50px;
+    width: 100%;
+}
+

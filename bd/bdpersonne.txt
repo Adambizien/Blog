@@ -1,0 +1,15 @@
+create table personnes(
+  
+id int(255) NOT NULL AUTO_INCREMENT,
+
+nom varchar(45) NOT NULL, 
+prenom varchar(45) NOT NULL,  
+naissance varchar(15) NOT NULL,   
+email varchar(60) NOT NULL,  
+pseudo varchar(20) NOT NULL,
+datedein varchar(15) NOT NULL,
+mdp varchar(20) NOT NULL,         
+PRIMARY KEY (id)
+) 
+ENGINE=InnoDB DEFAULT 
+CHARSET=utf8;
